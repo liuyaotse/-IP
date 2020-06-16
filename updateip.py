@@ -8,7 +8,7 @@ import time
 import json
 import  os
 
-accessKey=['LTAIxwyVgSJaWeH3','tAhemRe3aNkzGs9klkiz1OVQEGFjWC']
+accessKey=['','']
 
 
 def UpdateDomainRecord(accessKeyId,accessSecret,NewIP):
