@@ -25,7 +25,7 @@ def UpdateDomainRecord(accessKeyId,accessSecret,NewIP):
     request.add_query_param('RR', 'WWW')
     request.add_query_param('Value', NewIP)
     request.add_query_param('Type', 'A')
-    request.add_query_param('RecordId', '17047296276430848')
+    request.add_query_param('RecordId', '')
 
     response = str(client.do_action(request), encoding = 'utf-8')
     msg=json.loads(response)
